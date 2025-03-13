@@ -34,6 +34,7 @@ $uEmail = $_POST['uEmail'];
 $uPhone = $_POST['uPhone'];
 $uBirthday = $_POST['uBirthday'];
 $uGender = $_POST['uGender'];
+$uInterest = isset($_POST['uInterest']) ? $_POST['uInterest'] : [];
 echo '<center class="title">報名成功！ <br> 請確認資料<center><hr width="100%" >';
 echo '<center class="context">姓名：'.$uName.'<br>';
 echo '學號：'.$uNumber.'<br>';  
@@ -41,7 +42,16 @@ echo 'Email:'.$uEmail.'<br>';
 echo '電話：'.$uPhone.'<br>';
 echo '生日：'.$uBirthday.'<br>';
 echo '性別：'.$uGender.'<br></center>';
+if(empty($uInterest)) 
+echo '<center class="context">興趣：無</center>';
+else{
+    echo '<center class="context">興趣：';
 
+foreach($uInterest as $value){
+    echo ' '.$value.' ';
+    
+}}
+echo '</center>';
 ?>
 <center class="context"><a href="schedule.htm">回行程與報名表</a></center>
 </body>

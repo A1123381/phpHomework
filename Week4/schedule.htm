@@ -85,8 +85,13 @@
     電話:<input type="text" name="uPhone"class="context"><br>
     生日:<input type="date" name="uBirthday"class="context"><br>
     性別:
-    <input type="radio" name="uGender" value="男" class="context">男
-    <input type="radio" name="uGender" value="女" class="context">女<br>
+    <input type="radio" name="uGender" value="男" class="context" required>男
+    <input type="radio" name="uGender" value="女" class="context" required>女<br>
+    興趣:
+    <input type="checkbox" name="uInterest[]" value="音樂" class="context">音樂
+    <input type="checkbox" name="uInterest[]" value="閱讀" class="context">閱讀
+    <input type="checkbox" name="uInterest[]" value="運動" class="context">運動
+    <input type="checkbox" name="uInterest[]" value="旅遊" class="context">旅遊<br>
     
     <input type="submit" name="提交" class="context">
     <input type="reset" name="重設" class="context">
