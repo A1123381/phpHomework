@@ -1,0 +1,68 @@
+.banner1{
+    background-color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-family :"DFKai-sb";
+    
+    margin-left: -10px;
+    margin-top: -10px;
+    }
+    
+    .banner2{
+    background-color: rgb(249, 190, 17);
+    font-size: 50px;
+    font-family :"arial";
+    color: "black";
+    margin-left: -10px;
+    margin-top: -30px;
+    }
+    .banner3{
+    background-color: rgb(136, 136, 136);
+    font-size: 50px;
+    font-family :"arial";
+    color: "black";
+    margin-left: -10px;
+    margin-top: 20px;
+    }
+    .img{
+      margin-left:-5px;
+      margin-top: 20px;
+      top: 100px;
+      left: 100px;
+      size: 50px;
+      display: flex;
+    }
+    .a1{
+        color: rgb(255, 255, 255);
+        text-decoration: none; 
+        font-family :"DFKai-sb";  
+    }
+    .a2{
+        color: rgb(17, 17, 17);display: flex;
+        text-decoration: none;   
+        font-family :"DFKai-sb";
+    }
+    .a3{
+        color: rgb(255, 255, 255);display: flex;
+        text-decoration: none; 
+        font-family :"DFKai-sb"; 
+     
+    }
+    .title{
+        font-size: 100px;
+        font-family :"DFKai-sb";
+    }
+    .list{
+        display: flex;
+        margin-left:10px;color: rgb(249, 190, 17);
+        
+    }
+    .list2{
+        display: flex;
+        margin-left:10px;color: rgb(255, 255, 255);
+        
+    }
+    
+    .context{
+        font-size: 40px
+    }
+   
