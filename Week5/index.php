@@ -44,6 +44,7 @@ else{
         if(isset($_COOKIE['uNumber']))
         {
             echo '<div class="title">上次填的資料</div><br>';
+            echo '<div class="content">用戶'.$_COOKIE['uUser'].'<br>';
             echo '<div class="content">學號 '.$_COOKIE['uNumber'].'<br>姓名 '.$_COOKIE['uName'].'<br> 電話 '.$_COOKIE['uPhone'].'<br>';
             echo '<a href="deleteCookie.php">按此刪除資料</a>';
         }
